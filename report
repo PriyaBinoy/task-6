@@ -1,0 +1,86 @@
+# Task 6 Report — Password Strength Evaluation
+
+## 1. Objective
+The objective of this task was to understand password strength, test different types of passwords using online password evaluation tools, and analyze the results. The activity helps in learning how strong and weak passwords behave against different evaluation metrics and why creating strong passwords is important for security.
+
+---
+
+## 2. Methodology
+1. Created 5 sample passwords of varying complexity (weak, medium, strong, and random).  
+2. Tested each password using online password strength checkers.  
+3. Recorded the accuracy/strength percentage given by the tool.  
+4. Compared the results and analyzed why some passwords are strong and some are weak.  
+5. Researched common password attacks and listed best practices for creating strong passwords.
+
+---
+
+## 3. Results
+
+| Password Label | Accuracy Score | Strength Level | Notes |
+|----------------|----------------|----------------|-------|
+| PW1            | 96%            | Very Strong    | Good mix of characters, sufficient length. |
+| PW2            | 100%           | Excellent      | Very strong, long and unpredictable. |
+| PW3            | 37%            | Weak           | Short / common pattern, easy to guess. |
+| PW4            | 75%            | Medium         | Fairly strong but could be improved with more randomness. |
+| PW5            | 70%            | Medium         | Acceptable strength, but not the best for high security use. |
+
+---
+
+## 4. Analysis
+- The strongest passwords (PW1 and PW2) scored **96% and 100%**, showing that long length and use of mixed characters (upper, lower, digits, symbols) greatly improve strength.  
+- The weakest password (PW3) scored **37%**, proving that short or predictable passwords are very unsafe.  
+- Medium passwords (PW4 and PW5) scored around **70–75%**, which are acceptable but still not ideal for critical accounts.  
+- This shows that the **length, randomness, and variety of characters** directly affect the password’s strength.
+
+---
+
+## 5. Common Password Attacks
+- **Brute Force Attack**: Tries every possible combination until the password is found.  
+- **Dictionary Attack**: Uses a list of common words and patterns to guess passwords.  
+- **Rainbow Table Attack**: Uses precomputed hash values to quickly crack weakly hashed passwords.  
+- **Credential Stuffing**: Attackers reuse leaked usernames and passwords across multiple sites.  
+- **Phishing / Keylogging**: Tricks the user into revealing passwords or captures keystrokes using malware.
+
+---
+
+## 6. Best Practices for Strong Passwords
+- Use **long passwords** (12+ characters, ideally 16+).  
+- Combine **uppercase, lowercase, numbers, and symbols**.  
+- Avoid dictionary words, names, or personal details.  
+- Use **unique passwords** for every account.  
+- Use a **password manager** to generate and store strong passwords.  
+- Enable **multi-factor authentication (MFA)** wherever possible.  
+
+---
+
+## 7. Interview Q&A
+1. **What makes a password strong?**  
+   Length, unpredictability, and use of mixed characters (upper, lower, numbers, symbols).  
+
+2. **What are common password attacks?**  
+   Brute force, dictionary attack, rainbow tables, credential stuffing, phishing.  
+
+3. **Why is password length important?**  
+   Longer passwords increase possible combinations exponentially, making brute-force attacks impractical.  
+
+4. **What is a dictionary attack?**  
+   An attack that uses a predefined list of words or patterns to guess passwords quickly.  
+
+5. **What is multi-factor authentication?**  
+   Adding an extra verification method (like OTP, app, or biometrics) along with the password for higher security.  
+
+6. **How do password managers help?**  
+   They generate strong random passwords and store them securely so users don’t need to remember them.  
+
+7. **What are passphrases?**  
+   Long passwords made of random words (e.g., `river-cup-planet-window`), easy to remember but hard to crack.  
+
+8. **Common mistakes in password creation?**  
+   Using short words, names, birthdays, predictable substitutions (like `Password123`), or reusing the same password across accounts.
+
+---
+
+## 8. Conclusion
+This task demonstrated that weak passwords can be easily identified as unsafe, while strong and complex passwords score highly in evaluation tools. The results prove that password security depends on length, randomness, and diversity of characters. Using best practices and additional security measures like MFA ensures better protection against common cyber attacks.
+
+---
